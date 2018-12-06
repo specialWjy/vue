@@ -6,7 +6,10 @@ const http = {}
 
 var instance = axios.create({
     timeout: 5000,
-    baseURL
+    baseURL,
+    headers: {
+        'Content-Type': 'application/json;charset=UTF-8'
+    }
 })
 
 // 添加请求拦截器

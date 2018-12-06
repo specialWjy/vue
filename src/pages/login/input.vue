@@ -11,19 +11,12 @@ export default {
         return {}
     },
     created() {
-        console.log(getToken)
         getToken(
             {
-                client_id: 'foryouclub_BenefitCard_FYCbecard',
-                client_secret: 'ecard180-5869-42f4-984b-282062bf464d'
-            },
-            {
-                headers: {
-                    'content-type': 'application/json;charset=utf-8'
-                }
+                'client_id': 'foryouclub_BenefitCard_FYCbecard',
+                'client_secret': 'ecard180-5869-42f4-984b-282062bf464d'
             }
         ).then(res => {
-            console.log(res)
         })
     }
 }
