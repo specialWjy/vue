@@ -13,8 +13,8 @@ export default {
     created() {
         getToken(
             {
-                'client_id': 'foryouclub_BenefitCard_FYCbecard',
-                'client_secret': 'ecard180-5869-42f4-984b-282062bf464d'
+                'client_id': '111',
+                'client_secret': '222'
             }
         ).then(res => {
         })

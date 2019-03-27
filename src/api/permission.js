@@ -1,7 +1,7 @@
 import axios from '@/config/httpConfig'
 
 export function getToken(params) {
-    return axios.post('/fyh_crm/token/getToken', params)
+    return axios.post('aaa', params)
 }
 
 export function login() {
